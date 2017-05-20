@@ -1,0 +1,88 @@
+SHORT NOTES ON  BASIC JS/PHP
+
+#JavaScript (JS) is a programming language mostly used client-side to dynamically script webpages whereas PHP is a server-side scripting language for building web apps and dynamic websites.
+
+
+#Common Data Types in Both Languages are:
+
+String - "I love programming"
+Numbers - 2017
+Boolean - true/false
+
+*JavaScript also has the types Objects and Date.
+
+
+
+#Arrays:
+
+var primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37];
+
+var multidimensionalArray = [[1,2,3],[4,5,6],[7,8,9]]
+
+var myArray = new Array(45 , "Hello World!" , true , 3.2);
+
+*Accessing objects can be done by specifying their index with a [] after the array name e.g. myArray[1] would give "Hello World!".
+
+
+#Creating Variables in:
+
+JS: 
+var name = "Chuck Norris";
+
+PHP:
+$name = "Chuck Norris";
+
+#Note: ; - is used to end a line and {} is used for function/loop/conditional scopes in both JS and PHP.
+
+*Although Javascript and PHP can retrieve values using various methods from the document(HTML contents), JS can use it's window.prompt object to receive inputs in a dailog box.
+
+
+#Outputting Object:
+
+In JS, this can be performed using either the console.log(), document.write() or window.alert() while in PHP you use the echo or print statements.
+
+
+#Comparison Operators:
+
+x === y // returns true if two things are equal
+x !== y // returns true if two things are not equal
+x <= y // returns true if x is less than or equal to y
+x >= y // returns true if x is greater than or equal to y
+x < y // returns true if x is less than y
+x > y // returns true if x is greater than y
+
+
+#Functions
+
+A function is a procedure—a set of statements that performs a task or calculates a value.It is like a reusable piece of code. Imagine , having 20 for loops ,and then having a single function to handle it all . To use a function, you must define it somewhere in the scope from which you wish to call it. A function definition (also called a function declaration) consists of the function keyword, followed by the name of the function, a list of arguments to the function, enclosed in parentheses and separated by commas.
+
+function greet() {
+  return "Hello";
+}
+
+The above function can be used for both JS and PHP.
+
+
+#Sample Conditional Statement
+
+if (condition1) {
+  statement1;
+} else if (condition2) {
+  statement2;
+} else {
+  statement3;
+}
+
+
+#LOOPS IN JS:
+var i;
+for (i = 10; i >= 1; i--) {
+    console.log(i); // Prints the numbers from 10 to 1
+}
+
+#LOOPS IN PHP
+for ($i = 0; i <= 10; i++) {
+    console.log(i); // Prints the numbers from 1 to 10
+}
+
+*While or Do While Loops could also be used in both languages.
